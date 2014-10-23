@@ -1,0 +1,24 @@
+---
+galaxy_info:
+  description: Configures Apache PHP module to use MySQL PDO driver
+  author: British Antarctic Survey - Web and Applications Team
+  company: British Antarctic Survey
+  license: Open Government Licence V2
+  min_ansible_version: 1.6
+  platforms:
+  - name: Ubuntu
+      - trusty
+  categories:
+  - web
+
+armadillo_info:
+  name: Apache PHP MySQL
+  version: 0.1.0
+  source: git@stash.ceh.ac.uk:7999/barc/apache-php-mysql.git
+  dependencies:
+  - git@stash.ceh.ac.uk:7999/barc/apache-php.git#v0.2.3
+  - git@stash.ceh.ac.uk:7999/barc/php-mysql.git#v0.2.0
+
+dependencies:
+  - apache-php
+  - php-mysql
