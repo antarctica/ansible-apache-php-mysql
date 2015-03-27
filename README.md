@@ -14,9 +14,9 @@ This role is designed for internal use but if useful can be shared publicly.
 
 ## Usage
 
-#€# Requirements
+### Requirements
 
-##€# BAS Ansible Role Collection (BARC)
+#### BAS Ansible Role Collection (BARC)
 
 * `apache`
 * `php-mysql`
