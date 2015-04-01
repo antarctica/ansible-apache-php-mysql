@@ -13,7 +13,7 @@ galaxy_info:
 
 armadillo_info:
   name: Apache PHP MySQL
-  version: 0.1.3
+  version: 0.1.4
   source: git@stash.ceh.ac.uk:7999/barc/apache-php-mysql.git
   dependencies:
   - git@stash.ceh.ac.uk:7999/barc/apache-php.git#v0.2.7

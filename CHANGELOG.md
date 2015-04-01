@@ -1,5 +1,9 @@
 # Apache PHP MySQL (`apache-php-mysql`) - Changelog
 
+## 0.1.4 - April 2015
+
+* Switching to inherited handler for Apache
+
 ## 0.1.3 - March 2015
 
 * Fixing tasks to prevent unnecessary change reporting
